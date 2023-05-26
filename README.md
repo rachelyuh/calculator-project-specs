@@ -13,7 +13,7 @@ These interface specifications include explorations with using other libraries, 
 - **Help Command**: Your program must include a `help` command that lists all the available commands on your calculator.
 - **Ability to Exit**: You must also include a command in that command input loop that allows them to exit the program. 
 - **Readability**: You must use escape sequences (such as `\n` and `\t`) to properly format your answers
-- Your program must have modular code, i.e, one file called `main.py`, one file called `interface.py`and another called `calc.py`. 
+- **Modular Code**: Your program must have modular code, i.e, one file called `main.py`, one file called `interface.py`and another called `calc.py`. 
     - `main.py` should contain your main command loop and call functions from your `interface.py` and `calc.py` files
     - `interface.py` should contain all functions/classes related to working your interface
     - `calc.py` should contain all functions/classes related to working your interface
