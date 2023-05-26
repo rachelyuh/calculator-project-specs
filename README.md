@@ -3,7 +3,7 @@
 You will be building and presenting a calculator application in python that runs in the command line.
 
 The requirements for this project are:
-- Your calculator should be able to perform at least 4 different operations. At least 1 of them should be finance related.
+- Your calculator should be able to perform at least 2 distinct operations. At least 1 of them should be finance related.
 - Your calculator should adhere to at least the Mild level interface specifications
 
 ## Interface Specifications
