@@ -3,7 +3,7 @@
 You will be building and presenting a calculator application in python that runs in the command line.
 
 The requirements for this project are:
-- Your calculator should be able to perform at least 4 different operations. At least 2 of them should be finance related.
+- Your calculator should be able to perform at least 4 different operations. At least 1 of them should be finance related.
 - Your calculator should adhere to at least the Mild level interface specifications
 
 ## Interface Specifications
@@ -13,11 +13,11 @@ These interface specifications include explorations with using other libraries, 
 - **Help Command**: Your program must include a `help` command that lists all the available commands on your calculator.
 - **Ability to Exit**: You must also include a command in that command input loop that allows them to exit the program. 
 - **Readability**: You must use escape sequences (such as `\n` and `\t`) to properly format your answers
-- **Modular Code**: Your program must have modular code, i.e, one file called `main.py`, one file called `interface.py`and another called `calc.py`. 
-    - `main.py` should contain your main command loop and call functions from your `interface.py` and `calc.py` files
-    - `interface.py` should contain all functions/classes related to working your interface
+- **Modular Code**: Your program must have modular code, i.e. one file called `main.py`, one file called `interface.py`and another called `calc.py`. 
+    - `main.py` should contain your main command loop and call functions from your `interface.py` to run commands.
+    - `interface.py` should contain all functions/classes related to running commands. It should use functions from `calc.py` and then properly format/print them.
     - `calc.py` should contain all functions/classes related to working your interface
-- We highly encourage you to use Object Oriented Programming at this stage, but understand that, at this level, a Functional programming paradigmn works just as well.
+- We highly encourage you to use Object Oriented Programming at this stage, but understand that, at this level, a functional programming paradigm works just as well.
 ### Medium
 - All of the previous specifications.
 - **Object Oriented**: At this stage both your `interface.py` and `calc.py` files should operate using Object Orienting programming.
@@ -43,7 +43,7 @@ These interface specifications include explorations with using other libraries, 
 ## Example Operations 
 Below are a list of example operations rated by how difficult they are to complete. Here is also a [list of finance operations](https://docs.google.com/document/d/1tWqVNCtFf0M6-Zeb1dY7aku0qB2iuT0CV0vGJ0rs_10/edit?usp=sharing) from our brain storm.
 ### Mild
-At the mild level, these usually require just one operation.
+At the mild level, these usually require just one operation. (hint: you can probably use a decorator to make your life easier)
 - Addition, Multiplication, Subtraction, and Division
 - Exponentiation and Square Rooting
 - Mean, Median, Mode
@@ -86,3 +86,5 @@ Just your program. When you present, demonstrate its functionality and answer th
 1. What are your glows and grows?
 1. What were the challenges you faced when making your project?
 1. Would you manage your time differently if you were to do this again?
+### **Can I have additional files?**
+Yes.

@@ -1,6 +1,6 @@
 '''
 File Name: main.py
-Dependencies: interface.py, calc.py
+Dependencies: none
 Purpose: Contains code that runs the operations
 '''
 # import statements (if any)
